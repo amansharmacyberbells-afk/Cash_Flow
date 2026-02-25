@@ -1,0 +1,38 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: #1f2937;
+  background-color: #f8f9fa;
+}
+
+body {
+  margin: 0;
+}
+
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 240px;
+  background: #2c3e50;
+  color: #fff;
+  padding: 1rem;
+}
+
+.nav-link {
+  display: block;
+  color: #dbeafe;
+  text-decoration: none;
+  margin: 0.5rem 0;
+}
+
+.nav-link.active {
+  color: #fff9c4;
+  font-weight: 600;
+}
+
+.content {
+  flex: 1;
+  padding: 1.5rem;
+}
